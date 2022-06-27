@@ -1,0 +1,75 @@
+.caja {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
+#apple {
+    width: 100% ;
+    height: auto;
+}
+
+
+#titulo { 
+    position: absolute;
+    display: flex ;
+    color: white;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parteI {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+}
+
+#parrafo1 {
+   justify-content: center;
+}
+
+.recipe {
+    align-self: center;
+    width: 400px;
+}
+
+
+.ingredients {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: grey;
+}
+
+.cooking {
+    align-self: center;
+
+    width: 400px;
+
+}
+
+.directions {
+    padding-top: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+    
+}
+
+.linea {
+   width: 100%;
+}
+   
+
+
+
